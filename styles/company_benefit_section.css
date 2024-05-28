@@ -1,0 +1,79 @@
+#companyBenefit {
+    margin: 100px 80px 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+#companyBenefitContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 470px;
+}
+
+#companyBenefitContentBadge {
+    padding: 4px 16px;
+    background-color: #E1EFAF;
+    border-radius: 50px;
+    align-self: start;
+}
+
+#companyBenefitContentTitle {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 62px;
+    padding: 10px 0px;
+}
+
+#companyBenefitContentSub {
+    color: #4E616D;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+
+#companyBenefitContentButton {
+    align-self: start;
+}
+
+#companyBenefitPreview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+}
+
+#companyBenefitPreview > img {
+    align-self: end;
+    height: auto;
+    width: 525px;
+}
+
+#companyBenefitPreviewBadge {
+    position: absolute;
+    padding: 30px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #E1EFAF;
+    border-radius: 20px;
+    margin-top: 60px;
+    left: -100px;
+}
+
+#companyBenefitPreviewBadge img {
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+#companyBenefitPreviewContent {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}

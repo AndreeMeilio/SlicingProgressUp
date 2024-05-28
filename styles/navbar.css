@@ -1,0 +1,39 @@
+nav {
+    height: 74px;
+    display: flex;
+    margin: 0px 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#listMenu {
+    display: flex;
+    flex-direction: row;
+    width: 424px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#listMenu .active a{
+    color: #1B2E3B;
+    display: flex;
+    flex-direction: column;
+}
+
+#listMenu .active a::after {
+    content: " ";
+    width: 50px;
+    height: 3px;
+    background-color: #1B2E3B;
+    border-radius: 5px;
+}
+
+.listMenuItem a{
+    color: #496A81;
+    text-decoration: none;
+}
+
+.listMenuItem a:hover {
+    color: #1B2E3B;
+}

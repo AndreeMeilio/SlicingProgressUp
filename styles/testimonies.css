@@ -1,0 +1,61 @@
+#testimoniesTitle {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimoniesSubtitle {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimoniesContentList {
+    padding: 65px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.testimoniesContentListItem {
+    width: 275px;
+    height: 275px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.testimoniesItemHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.testimoniesItemDataItemName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color:#4E616D;
+}
+
+.testimoniesItemDataItemJob {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#testimoniesButtonShowAll {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: inline;
+}
+
+#testimoniesButtonShowAllContainer {
+    display: flex;
+    justify-content: center;
+}

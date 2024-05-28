@@ -1,0 +1,87 @@
+#benefitSection {
+    height: 1275px;
+    background-color: #E1EFAF;
+    display: flex;
+    flex-direction: column;
+}
+
+#benefitSectionContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -125px;
+}
+
+#benefitSectionContainer img{
+    height: auto;
+    max-width: 100%;
+    margin: 0px 80px;
+}
+
+#benefitSectionContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 142px;
+}
+
+#benefitSectionContentTitle {
+    margin: 100px 230px 0px;
+}
+
+#benefitSectionContentTitleMain {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#benefitSectionContentTitleSub {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#benefitSectionContentList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.benefitSectionContentListItem {
+    background-color: #1B2E3B;
+    width: 365px;
+    height: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin: 50px 0px;
+}
+
+.benefitSectionContentSubItem {
+    font-weight: 600;
+    font-size: 24px;
+    list-style: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.benefitSectionContentSubSetItem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#benefitGetStarted {
+    width: 139px;
+    text-align: center;
+    font-size: 16px;
+    align-self: center;
+}

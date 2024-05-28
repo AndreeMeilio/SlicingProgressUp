@@ -1,0 +1,15 @@
+@import url('latest_news.css');
+
+@import url('testimonies.css');
+
+#newsContainer {
+    position: relative;
+    height: 200px;
+    background-color: #1B2E3B;
+}
+
+#testimoniesContainer {
+    position: relative;
+    background-color: #1B2E3B;
+    padding: 100px 150px 200px;
+}

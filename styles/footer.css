@@ -1,0 +1,49 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1B2E3B;
+    gap: 300px;
+    padding-bottom: 100px;
+}
+
+#locations {
+    margin: 0px 80px;
+}
+
+#locationsAddress {
+    margin: 30px 0px;
+}
+
+#footerListMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.footerTitleText {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footerContentText {
+    color: #ffffff;
+    font: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+#locationContact .footerContentText {
+    text-decoration: underline;
+}
+
+.footerListMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#footerListMenu .footerContentText:hover {
+    color: #496A81;
+}

@@ -1,0 +1,49 @@
+#latestNews {
+    position: relative;
+    background-color:#E1EFAF;
+    border-radius: 30px;
+    margin: 0px 80px;
+    top: -250px;
+    padding: 100px 229px;
+}
+
+#latestNewsTitle {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 63px;
+    text-align: center;
+    color:#1B2E3B;
+}
+
+
+#latestNewsSubTitle {
+    color:#1B2E3B;
+    text-align: center;
+    font-size: 16;
+    line-height: 24px;
+}
+
+#latestNewsSubscribe {
+    padding: 30px 156px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-content: stretch;
+}
+
+#latestNewsEmail {
+    padding: 14px 0px 14px 24px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 365px;
+    color: #1B2E3B;
+    border: none;
+}
+
+#latestNewsComment {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 19px;
+    color: #1B2E3B;
+}
